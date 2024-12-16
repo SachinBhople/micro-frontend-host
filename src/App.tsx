@@ -13,7 +13,7 @@ import reduxStore from './redux/store'
 import Layout from './pages/Layout'
 import Protected from './share/Protected'
 
-
+// HOST APP
 const App = () => (
   <BrowserRouter>
     <Routes>
