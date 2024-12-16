@@ -23,7 +23,7 @@ const App = () => (
         <Route path='/auth/*' element={<Auth />} />
         <Route path='/order/*' element={<Protected compo={<Order />} />} />
       </Route>
-      <Route path='/admin/*' element={<Admin />} />
+      {/* <Route path='/admin/*' element={<Admin />} /> */}
     </Routes>
 
 
